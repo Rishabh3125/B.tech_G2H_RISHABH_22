@@ -1,0 +1,14 @@
+
+
+# include <stdio.h>
+#include <math.h>
+int main ()
+{float KM,MILES,c,d ;
+printf("enter KM,MILES\n");
+scanf("%f%f", &KM, &MILES);
+ c= KM* 0.621;
+ d=1.621* MILES;
+printf("kilomt. in miles is %f",c);
+printf("miles in kilomt is %f",d);
+return 0;
+}
